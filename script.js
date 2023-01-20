@@ -1,9 +1,13 @@
+
+//   caixa com informação guardadas
 const form = document.querySelector("form")
 const nlwSetup = new NLWSetup(form)
 const button = document.querySelector("header button")
 
+// evento de ouvir o click no botão
 button.addEventListener('click', add)
 
+// função de adicionar o dia
 function add() {
 
  // "today" recebe uma nova data, a data vai ser pelo seu local indicado
@@ -12,6 +16,7 @@ function add() {
     const today = new Date().toLocaleDateString('pt-br').slice(0, 5)
     const dayExists = nlwSetup.dayExists(today)
 
+    // condição se o dia já existir
     if(dayExists) {
         alert("O Dia, já existe ❌")
         return
@@ -24,11 +29,19 @@ function add() {
     nlwSetup.addDay(today)
 }
 
-// const data = {
+// Evento de ouvir a alteração no form e ativar a função
+form.addEventListener('change', save)
 
-//     basquet: ["01-01", "01-02", "01-06", "01-07"],
-//     water: ["01-01", "01-02", "01-06", "01-07"]
-// }
+// função de transformar o objeto em string
+function save() {
+    localStorage.setItem('NLWSetup@habits', JSON.stringify(nlwSetup.data)) 
+}
 
-// nlwSetup.setData(data)
-// nlwSetup.load()
+    // const recebe a string que foi transformada em objeto, "ou isso ou aquilo" é atribuido na const.
+    const data = JSON.parse(localStorage.getItem('NLWSetup@habits')) || {}
+
+    // guarda os dados obtidos na const é prepara para carregar
+    nlwSetup.setData(data)
+
+    // carrega os dados
+    nlwSetup.load()
