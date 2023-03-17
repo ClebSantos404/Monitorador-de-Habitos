@@ -10,18 +10,13 @@
 body {
     background-color: #09090a;
     color: white;
-
 }
 
-/* cabeçalho */
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    /* preenchimento interno */
     padding: 48px;
-
     position: fixed;
     width: 100%;
 }
@@ -32,13 +27,9 @@ button {
     border: 1px solid #8B5CF6;
     background-color: transparent;
     color: white;
-
-    /* visualização */
     display: flex;
     align-items: center;
     gap: 12px;
-
-    /* Fonte */
     font-family: 'Inter';
     font-weight: 600;
     font-size: 16px;
@@ -49,7 +40,7 @@ form {
     display: flex;
     padding: 180px 48px 48px 48px;
     width: fit-content;
-    
+    height: 46em;
 }
 
 .habits {
@@ -62,9 +53,7 @@ form {
 .habit {
     width: 64px;
     height: 64px;
-
     font-size: 32px;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,31 +75,23 @@ form {
     margin-bottom: 8px;
     font-size: 20px;
     line-height: 125%;
-
     color: #A1A1AA;
-
     text-align: center;
     font-family: Roboto Mono;
 }
 
 input {
-
-    /* aparencia */
     appearance: none;
+
     /* prefixo para outros navegadores */
     -webkit-appearance: none;
-
-    /* tamanho do input */
-    width: 64px;
-    height: 64px;
-
-    /* bordas */
+    width: 60px;
+    height: 60px;
     border: 2px solid #27272A;
     border-radius: 8px;
     background: #18181B;
 }
 
-/* pseudo-selector */
 input:checked {
     background: #8B5CF6;
     border: 2px solid #A78BFA;
