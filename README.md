@@ -1,4 +1,4 @@
-![Logo of the project](https://scontent.xx.fbcdn.net/v/t1.15752-9/364547878_183007394652951_6433365022412637153_n.png?stp=dst-png_p403x403&_nc_cat=110&cb=99be929b-3346023f&ccb=1-7&_nc_sid=aee45a&_nc_ohc=9J9Yu-CZmRQAX_aBS4V&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQwDgY7hYYmcrt3-FREZLtp2C1UVLUSDA8Q7Oax7t4-JQ&oe=64F0D985)
+![Logo of the project](https://scontent.xx.fbcdn.net/v/t1.15752-9/376376700_825795828925230_1484441567601869189_n.png?stp=dst-png_p403x403&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_ohc=kaPdl3ScKU4AX-w7X9a&_nc_oc=AQnx7aEDWmj0tm-Bw-GWkOxqJEb9iQpeBCdrLfBxF0YRNR47j_W565ACJuK6BzuxyDAeXD_noDbT6GM3CvrxoJwG&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSlGdxjjZ1xCZRTH95yzIouQ7fe6Lj8uDuwIqAkG1B1BQ&oe=6527F3D2)
 
 
 ## Habits monitor 
